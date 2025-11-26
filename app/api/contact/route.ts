@@ -11,7 +11,7 @@ export async function POST(request: NextRequest) {
     // TODO: Send email using your email service
     // Example with SendGrid:
     // await sgMail.send({
-    //   to: 'support@kuaizhixiang.com',
+    //   to: 'yangguang8666@gmail.com',
     //   from: 'noreply@kuaizhixiang.com',
     //   subject: `Contact Form: ${name}`,
     //   text: `From: ${email}\n\n${message}`,

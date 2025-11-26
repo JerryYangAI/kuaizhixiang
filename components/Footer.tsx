@@ -53,7 +53,7 @@ export default function Footer() {
               {t('links.support')}
             </h3>
             <p className="text-sm">
-              Email: support@kuaizhixiang.com
+              Email: yangguang8666@gmail.com
             </p>
             <p className="text-sm mt-2">
               {t('warehouse')}

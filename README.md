@@ -223,4 +223,4 @@ const t = useTranslations('common');
 ## 联系方式
 
 - 网站: kuaizhixiang.com
-- 邮箱: support@kuaizhixiang.com
+- 邮箱: yangguang8666@gmail.com

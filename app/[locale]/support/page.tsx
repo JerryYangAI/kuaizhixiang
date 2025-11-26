@@ -111,7 +111,7 @@ export default function SupportPage() {
                 <Mail className="text-blue-600" size={24} />
                 <div>
                   <div className="font-semibold">{t('email')}</div>
-                  <div className="text-gray-600">support@kuaizhixiang.com</div>
+                  <div className="text-gray-600">yangguang8666@gmail.com</div>
                 </div>
               </div>
               <div className="flex items-center space-x-4">
