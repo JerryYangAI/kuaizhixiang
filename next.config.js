@@ -9,28 +9,8 @@ const nextConfig = {
     formats: ['image/webp', 'image/avif'],
   },
   // Cloudflare Pages 配置
-  output: 'standalone', // 使用 standalone 输出模式以获得更好的兼容性
-  async headers() {
-    return [
-      {
-        source: '/:path*',
-        headers: [
-          {
-            key: 'X-Content-Type-Options',
-            value: 'nosniff',
-          },
-          {
-            key: 'X-Frame-Options',
-            value: 'DENY',
-          },
-          {
-            key: 'X-XSS-Protection',
-            value: '1; mode=block',
-          },
-        ],
-      },
-    ]
-  },
+  // 注意：headers() 会导致动态渲染，对于静态站点生成，这些安全头应该在 Cloudflare Pages 的配置中设置
+  // 如果需要这些安全头，可以在 Cloudflare Pages 的 Dashboard 中通过 Page Rules 或 Workers 设置
 }
 
 module.exports = withNextIntl(nextConfig);

@@ -1,10 +1,15 @@
-import { useTranslations, useLocale } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
+import { setRequestLocale } from 'next-intl/server';
 import Link from 'next/link';
 import { Home } from 'lucide-react';
 
-export default function PrivacyPage() {
-  const t = useTranslations('legal.privacy');
-  const locale = useLocale();
+export default async function PrivacyPage({
+  params: { locale },
+}: {
+  params: { locale: string };
+}) {
+  setRequestLocale(locale);
+  const t = await getTranslations('legal.privacy');
 
   const sections = [
     {

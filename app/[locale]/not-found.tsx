@@ -1,8 +1,11 @@
 import Link from 'next/link';
-import { useLocale } from 'next-intl';
 
-export default function NotFound() {
-  const locale = useLocale();
+export default function NotFound({
+  params,
+}: {
+  params?: { locale?: string };
+} = {}) {
+  const locale = params?.locale || 'zh';
   
   return (
     <div className="container mx-auto px-4 py-12 text-center">

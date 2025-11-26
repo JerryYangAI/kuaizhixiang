@@ -1,12 +1,17 @@
-import { useTranslations, useLocale } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
+import { setRequestLocale } from 'next-intl/server';
 import Link from 'next/link';
 import Image from 'next/image';
 import { getHotProducts, PRODUCTS } from '@/data/products';
 import { Package, Truck, Shield, Heart } from 'lucide-react';
 
-export default function HomePage() {
-  const t = useTranslations('home');
-  const locale = useLocale() as 'zh' | 'ja' | 'en';
+export default async function HomePage({
+  params: { locale },
+}: {
+  params: { locale: 'zh' | 'ja' | 'en' };
+}) {
+  setRequestLocale(locale);
+  const t = await getTranslations('home');
   const hotProducts = getHotProducts();
 
   return (

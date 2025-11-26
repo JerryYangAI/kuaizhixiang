@@ -1,10 +1,15 @@
-import { useTranslations, useLocale } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
+import { setRequestLocale } from 'next-intl/server';
 import Link from 'next/link';
 import { Home } from 'lucide-react';
 
-export default function TermsPage() {
-  const t = useTranslations('legal.terms');
-  const locale = useLocale();
+export default async function TermsPage({
+  params: { locale },
+}: {
+  params: { locale: string };
+}) {
+  setRequestLocale(locale);
+  const t = await getTranslations('legal.terms');
 
   const sections = [
     {

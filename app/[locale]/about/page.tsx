@@ -1,8 +1,14 @@
-import { useTranslations } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
+import { setRequestLocale } from 'next-intl/server';
 import { Package, Warehouse, Shield, MessageCircle, CheckCircle } from 'lucide-react';
 
-export default function AboutPage() {
-  const t = useTranslations('about');
+export default async function AboutPage({
+  params: { locale },
+}: {
+  params: { locale: string };
+}) {
+  setRequestLocale(locale);
+  const t = await getTranslations('about');
 
   const advantages = [
     {
