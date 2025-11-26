@@ -1,0 +1,456 @@
+{
+  "common": {
+    "home": "Home",
+    "products": "Products",
+    "cart": "Cart",
+    "checkout": "Checkout",
+    "faq": "FAQ",
+    "support": "Support",
+    "about": "About",
+    "search": "Search",
+    "addToCart": "Add to Cart",
+    "quantity": "Quantity",
+    "price": "Price",
+    "subtotal": "Subtotal",
+    "total": "Total",
+    "shipping": "Shipping",
+    "continue": "Continue",
+    "back": "Back",
+    "next": "Next",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "remove": "Remove",
+    "update": "Update",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "handHoles": "With Hand Holes",
+    "noResults": "No results found",
+    "unitPrice": "Unit Price",
+    "unit": "pc",
+    "quantityDiscount": "Quantity Discount"
+  },
+  "nav": {
+    "home": "Home",
+    "shopBySize": "Shop by Size",
+    "shopByUsage": "Shop by Usage",
+    "faq": "FAQ",
+    "support": "Support",
+    "about": "About",
+    "cart": "Cart"
+  },
+  "home": {
+    "hero": {
+      "title": "快纸箱 - Standard Cardboard Boxes for Kansai Region",
+      "subtitle": "Low Price, Standard Sizes, Fast Shipping",
+      "description": "Providing standard-size cardboard boxes for Chinese people and local customers in Kansai region (Osaka, Kyoto, Kobe, etc.). Same-day or next-day delivery at affordable prices.",
+      "cta": "Shop Now"
+    },
+    "shopBySize": {
+      "title": "Shop by Size",
+      "description": "Choose boxes suitable for courier standard sizes"
+    },
+    "shopByUsage": {
+      "title": "Shop by Usage",
+      "moving": "Moving Boxes",
+      "ecommerce": "E-commerce Packing Boxes",
+      "storage": "Document Storage Boxes",
+      "wine": "Wine Bottle / Fragile Item Boxes"
+    },
+    "hotProducts": {
+      "title": "Hot Products",
+      "viewAll": "View All"
+    },
+    "shipping": {
+      "title": "Shipping Service",
+      "description": "Same-day or next-day delivery in Kansai region, transparent pricing, reliable service."
+    }
+  },
+  "products": {
+    "title": "All Products",
+    "filters": {
+      "size": "Size",
+      "dimensions": "Dimensions",
+      "thickness": "Thickness",
+      "handHoles": "Hand Holes",
+      "usage": "Usage",
+      "sortBy": "Sort By",
+      "popularity": "Popularity",
+      "priceLow": "Price: Low to High",
+      "priceHigh": "Price: High to Low",
+      "sizeAsc": "Size: Small to Large"
+    },
+    "noResults": "No products found",
+    "viewDetails": "View Details"
+  },
+  "product": {
+    "dimensions": "Dimensions",
+    "thickness": "Thickness",
+    "weightCapacity": "Weight Capacity",
+    "material": "Material",
+    "suitableFor": "Suitable For",
+    "description": "Description",
+    "relatedProducts": "Related Products",
+    "wholesalePrice": "Wholesale Price",
+    "minOrder": "Minimum Order",
+    "maxOrder": "Maximum Order",
+    "units": "pcs",
+    "unit": "pc",
+    "mustBeMultipleOf10": "Must be a multiple of 10",
+    "mustBeMultipleOf1000": "Must be a multiple of 1000",
+    "quantityDiscount": "Quantity Discount",
+    "unitPrice": "Unit Price",
+    "totalPrice": "Total Price",
+    "overMaxOrder": "Exceeds maximum order quantity. Please contact us for pricing"
+  },
+  "cart": {
+    "title": "Shopping Cart",
+    "empty": "Your cart is empty",
+    "emptyDescription": "You haven't added any items to your cart yet",
+    "continueShopping": "Continue Shopping",
+    "estimatedShipping": "Estimated Shipping",
+    "checkout": "Proceed to Checkout"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "step1": "Shipping Info",
+    "step2": "Delivery Options",
+    "step3": "Payment",
+    "shippingInfo": {
+      "title": "Shipping Information",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "postcode": "Postcode",
+      "prefecture": "Prefecture",
+      "city": "City",
+      "street": "Street Address",
+      "building": "Building Name",
+      "notes": "Delivery Notes"
+    },
+    "delivery": {
+      "title": "Delivery Options",
+      "standard": "Standard Delivery (1-2 business days)",
+      "express": "Express Delivery (Same-day)",
+      "estimatedDate": "Estimated Delivery Date"
+    },
+    "payment": {
+      "title": "Payment Method",
+      "stripe": "Card / Apple Pay / Google Pay",
+      "alipay": "Alipay",
+      "securePayment": "Secure Payment",
+      "dataEncrypted": "Data Encrypted"
+    },
+    "orderSummary": {
+      "title": "Order Summary",
+      "items": "Items",
+      "shipping": "Shipping",
+      "total": "Total"
+    },
+    "placeOrder": "Place Order"
+  },
+  "order": {
+    "success": {
+      "title": "Order Confirmation",
+      "orderNumber": "Order Number",
+      "thankYou": "Thank you for your purchase!",
+      "confirmationEmail": "We've sent a confirmation email to your inbox.",
+      "continueShopping": "Continue Shopping"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "intro": "This page answers common questions about choosing boxes, ordering, shipping, and support.",
+    "searchPlaceholder": "Search questions... (e.g., moving, payment, returns)",
+    "noResults": "No related questions found. Please try other keywords.",
+    "sections": {
+      "chooseBox": {
+        "title": "Choosing the Right Box",
+        "items": {
+          "q1": {
+            "question": "How do I choose a box based on specifications like \"Size 60, 80, 100\"?",
+            "answer": "Japanese courier companies like Takkyubin use a standard size numbering system. Numbers like 60, 80, 100, 120 represent different size specifications. Each number corresponds to a specific length × width × height range.\n\nOn 快纸箱 product pages, we clearly label \"Suitable for Takkyubin XX size\" and display detailed length × width × height (in centimeters). You can choose the appropriate size based on the longest side and total volume of items you need to pack. If unsure, we recommend choosing a slightly larger size and leaving space for cushioning materials (like bubble wrap)."
+          },
+          "q2": {
+            "question": "If I'm not sure about the size, how should I choose to be safe?",
+            "answer": "We recommend following these steps:\n\n1. First, measure the longest, widest, and highest dimensions of items you need to pack (in centimeters)\n2. Add 2-5 centimeters to each side as buffer space based on the measurements\n3. Choose a slightly larger box based on the adjusted size\n4. If items are heavy or fragile, we recommend choosing a thicker box (check the thickness label on the product page)\n\nIf you're still unsure, you can contact our customer service, provide the item dimensions and weight, and we'll recommend a suitable box for you."
+          },
+          "q3": {
+            "question": "What is the weight capacity of boxes? Can they hold books, clothes, or appliances?",
+            "answer": "Each product page displays the recommended weight capacity range (in kilograms). Generally:\n\n• Size 60 boxes: Suitable for 10-15 books, small electronics, lightweight clothing\n• Size 80 boxes: Suitable for 20-30 books, medium-weight items, clothing\n• Size 100 boxes: Suitable for 40-50 books, small appliances, heavier items\n• Size 120 boxes: Suitable for large items, furniture parts, etc.\n\nPlease note:\n- Heavy items like books should be distributed evenly, avoid concentrating them in one place\n- Fragile items (like appliances) require additional cushioning materials\n- If items are close to the weight limit, we recommend choosing a thicker box or using multiple boxes"
+          }
+        }
+      },
+      "orders": {
+        "title": "Orders & Payment",
+        "items": {
+          "q1": {
+            "question": "Do I need to register an account to place an order?",
+            "answer": "Not necessarily. 快纸箱 supports guest checkout, so you can directly fill in shipping information to complete your purchase without registering an account.\n\nHowever, registering a member account has the following advantages:\n• Easy access to order history and shipping status\n• Save frequently used shipping addresses for faster checkout next time\n• Receive promotional information and special offers\n• Accumulate points or enjoy member-exclusive discounts (if applicable)\n\nThe registration process is simple and quick, requiring only an email and password."
+          },
+          "q2": {
+            "question": "What payment methods are available?",
+            "answer": "Currently, 快纸箱 supports the following payment methods:\n\n• Credit card: Secure payment via Stripe, supporting major credit cards like Visa, Mastercard, JCB\n• Apple Pay / Google Pay: If you're using a device that supports these payment methods, you can complete payment quickly\n• Alipay: Suitable for Chinese customers who are used to using Alipay\n\nWe plan to add in the future:\n• Bank transfer\n• Cash on delivery (COD)\n\nAll payments are processed through encrypted connections, and we do not store your complete card information. After successful payment, you'll receive an order confirmation email."
+          },
+          "q3": {
+            "question": "Are prices tax-inclusive? Are there any hidden fees?",
+            "answer": "Yes, the product prices displayed on the 快纸箱 website include Japanese consumption tax (10%).\n\nFee structure is transparent:\n• Product price: Tax-inclusive, the listed price is the selling price\n• Shipping fee: Calculated separately based on shipping address and selected shipping method, clearly displayed on the checkout page\n• No hidden fees: No additional service fees, handling charges, etc.\n\nOn the checkout page, you can clearly see:\n- Subtotal (tax-inclusive)\n- Shipping fee\n- Order total\n\nIf you have any questions about fees, please contact customer service."
+          }
+        }
+      },
+      "shipping": {
+        "title": "Shipping & Delivery Area",
+        "items": {
+          "q1": {
+            "question": "What is 快纸箱's delivery area?",
+            "answer": "快纸箱 mainly provides delivery services to the Kansai region, including:\n\nMajor cities:\n• Osaka Prefecture (Osaka City and surrounding areas)\n• Kyoto Prefecture (Kyoto City and surrounding areas)\n• Hyogo Prefecture (Kobe City and surrounding areas)\n• Nara Prefecture\n• Wakayama Prefecture\n• Shiga Prefecture\n\nOther areas:\n• We can also deliver to other parts of Japan, but delivery times and shipping fees may vary\n• Please check the specific delivery area after entering your address on the checkout page\n\nSince our warehouse is located in Osaka, delivery to the Kansai region is fastest, usually same-day or next-day shipping."
+          },
+          "q2": {
+            "question": "How long does it usually take to ship and receive?",
+            "answer": "Shipping time:\n• Orders placed before 15:00 on weekdays (Monday-Friday): Usually shipped the same day\n• Orders placed after 15:00 on weekdays or on weekends/holidays: Shipped on the next business day\n• With sufficient stock, fastest same-day shipping is possible\n\nDelivery time:\n• Major cities in Kansai: Usually delivered 1-2 business days after shipping\n• Other areas in Kansai: Usually delivered 2-3 business days after shipping\n• Other parts of Japan: Usually 3-7 business days depending on distance\n\nActual delivery time depends on:\n- Courier company's delivery schedule\n- Force majeure factors like weather and traffic\n- Holidays and peak seasons may cause delays\n\nYou can check shipping status using your order number after order confirmation."
+          },
+          "q3": {
+            "question": "Can I specify a delivery date or time slot?",
+            "answer": "Delivery date specification:\n• Some logistics partners support delivery date specification service\n• When selecting shipping method on the checkout page, if date specification is supported, corresponding options will be available\n• Date specification service may require additional fees, details will be shown on the checkout page\n\nTime slot specification:\n• Some courier companies provide time slot specification service (e.g., \"morning,\" \"afternoon,\" \"evening\")\n• Whether it's supported depends on your selected shipping method and logistics partner\n• Specific options will be displayed during checkout\n\nPlease note:\n- Date/time slot specification service may extend overall delivery time\n- If we cannot meet your specified requirements, we will contact you in advance\n- We recommend stating your special requirements in order notes, and we'll do our best to accommodate"
+          }
+        }
+      },
+      "invoice": {
+        "title": "Invoices & Receipts",
+        "items": {
+          "q1": {
+            "question": "Can I request an invoice or receipt?",
+            "answer": "Yes. 快纸箱 provides the following documents:\n\nElectronic invoice/receipt:\n• After order completion, we automatically send an order confirmation email containing order details, which can be used as an electronic receipt\n• For a formal invoice, please state your invoice requirement in order notes or contact customer service after placing the order\n\nHow to request:\n• Via contact form: Visit the \"Support\" page (/support), fill out the contact form, and state your invoice requirement\n• Via email: Send an email to support@kuaizhixiang.com with your order number and invoice requirement\n• In order notes: When placing an order, state in the \"Delivery Notes\" field that you need an invoice\n\nWe will process your request as soon as possible, usually sending an electronic invoice within 1-3 business days."
+          },
+          "q2": {
+            "question": "Can I get an invoice with company name for corporate purchases?",
+            "answer": "Yes. 快纸箱 supports issuing invoices with company names.\n\nInformation required:\n• Company name (official registered name)\n• Company address\n• Tax number (corporate number, if applicable)\n• Contact person's name and phone\n• Order number\n\nHow to request:\n1. When placing order: Fill in company information and invoice name requirement in order notes\n2. After placing order: Provide the above information via contact form or email (support@kuaizhixiang.com)\n\nPlease note:\n- Company name invoices usually require an additional 1-2 business days for processing\n- Please ensure company information is accurate; once an invoice is issued, modifications may require additional fees\n- If you need a paper invoice, please inform us in advance; we may need to charge additional mailing fees\n\nIf you have special requirements (such as invoice format, content, etc.), please communicate with customer service in advance."
+          }
+        }
+      },
+      "returns": {
+        "title": "Returns & Issues",
+        "items": {
+          "q1": {
+            "question": "What should I do if the boxes I received are damaged or the quantity is wrong?",
+            "answer": "If the boxes you received are damaged or the quantity is wrong, please follow these steps:\n\n1. Keep evidence:\n   - Take photos of damaged boxes (multiple angles, clearly visible)\n   - Keep the original packaging and tracking number\n   - If quantity is wrong, take photos of all boxes received\n\n2. Contact us promptly:\n   - Contact us within 7 days of receiving the goods\n   - Via contact form, email (support@kuaizhixiang.com), or order notes\n   - Provide order number, problem description, and photos\n\n3. Resolution:\n   - Damage: We will reship for free or refund\n   - Wrong quantity: We will reship the missing quantity or refund\n   - All return/exchange shipping costs are borne by us\n\nWe promise to reply within 24 hours of receiving your feedback and resolve the issue as soon as possible."
+          },
+          "q2": {
+            "question": "I just bought the wrong size (too big/too small), can I return or exchange?",
+            "answer": "Yes, but the following conditions must be met:\n\nReturn/exchange conditions:\n• Boxes are unused, original packaging intact\n• Does not affect resale (no damage, stains, or deformation)\n• Return/exchange request submitted within 7 days of receiving goods\n• Provide order number and reason for return/exchange\n\nShipping cost responsibility:\n• If it's our mistake (wrong size shipped, quality issues): We bear the return shipping cost\n• If customer changed their mind (size doesn't fit): Customer bears the return shipping cost\n\nReturn/exchange process:\n1. Contact customer service to explain the reason\n2. After customer service confirms, provide return address\n3. Package boxes in original condition and send back (recommend using original packaging)\n4. After we receive and inspect, arrange exchange or refund\n\nPlease note:\n- Used boxes cannot be returned/exchanged\n- Custom products or special sale items may not support returns/exchanges; please check product page for details"
+          },
+          "q3": {
+            "question": "I noticed I wrote the wrong address after placing an order, can I change it?",
+            "answer": "Yes, but it needs to be handled based on order status:\n\nBefore shipping:\n• If the order hasn't been shipped yet, you can directly change the address\n• Via contact form, email, or customer service, provide order number and correct address\n• We will update the address before shipping, usually processed within 1 business day\n\nAfter shipping:\n• If the order has already been shipped, the delivery address cannot be directly changed\n• You can:\n  1. Contact the courier company: Use order number to contact the courier company to see if delivery address can be changed (may require additional fees)\n  2. Contact customer service: We'll assist you in communicating with the courier company\n  3. Wait for return: If delivery cannot be completed, the package will be returned to our warehouse, and we can reship to the correct address (additional shipping fee required)\n\nRecommendations:\n- Carefully verify shipping address before placing order\n- Registering an account allows you to save frequently used addresses, reducing errors\n- If there's an address change, contact us as soon as possible; the earlier, the easier to resolve"
+          }
+        }
+      },
+      "support": {
+        "title": "Support & Contact",
+        "items": {
+          "q1": {
+            "question": "How can I contact 快纸箱 customer service?",
+            "answer": "快纸箱 provides multilingual customer support (Chinese/Japanese/English), and you can contact us through the following methods:\n\n1. Contact form:\n   - Visit the website's \"Support\" page (/support)\n   - Fill out the contact form, and we'll reply as soon as possible\n\n2. Email:\n   - support@kuaizhixiang.com\n   - Please provide order number (if applicable) and detailed problem description\n\n3. WeChat customer service (for Chinese customers):\n   - Scan the WeChat QR code on the website\n   - Add customer service WeChat, usually replies within 1-2 hours on weekdays\n\n4. LINE (for Japanese customers):\n   - Scan the LINE QR code on the website\n   - Add official account, usually replies within 1-2 hours on weekdays\n\n5. Phone (planned):\n   - Phone customer service feature is being prepared, stay tuned\n\nWe promise:\n- Reply within 24 hours on weekdays\n- Priority handling for urgent issues\n- Multilingual support, no communication barriers"
+          },
+          "q2": {
+            "question": "What are the customer service hours?",
+            "answer": "快纸箱 customer service hours:\n\nWeekdays (Monday-Friday):\n• Japan time: 9:00 - 18:00\n• China time: 8:00 - 17:00\n\nWeekends and holidays:\n• Customer service may delay replies\n• We'll try to handle urgent issues\n• Non-urgent issues will be replied to on the next business day\n\nAuto-reply:\n• Contact form and email: Receive automatic confirmation immediately after submission\n• We'll reply as soon as possible during business hours\n\nHoliday schedule:\n• Japanese national holidays may suspend service\n• During long holidays like Chinese New Year, customer service may be reduced\n• Specific arrangements will be announced on the website in advance\n\nRecommendations:\n- Non-urgent issues can be submitted via email or contact form, we'll reply during business hours\n- For urgent issues (like order errors, shipping problems), please prioritize using the contact form, and we'll handle as soon as possible"
+          }
+        }
+      }
+    }
+  },
+  "support": {
+    "title": "Contact Us",
+    "description": "If you have any questions, please feel free to contact us",
+    "email": "Email",
+    "wechat": "WeChat",
+    "line": "LINE",
+    "phone": "Phone",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send",
+      "sending": "Sending...",
+      "success": "Message sent. We'll reply as soon as possible.",
+      "error": "Failed to send. Please try again later."
+    }
+  },
+  "about": {
+    "title": "About 快纸箱",
+    "intro": "快纸箱 is a local cardboard box supplier based in Osaka, Kansai region, founded and operated by a team from China. We understand that Chinese people living and starting businesses in Japan need reliable, easy-to-use cardboard boxes for online store shipping, moving, and office work—but size, price, delivery, and communication are often troublesome.",
+    "mission": "Therefore, we decided to focus on one thing: providing standard-size, reliable quality, and affordable cardboard box services for Chinese and local customers in the Kansai region.",
+    "advantages": {
+      "title": "Our Advantages",
+      "standardSize": {
+        "title": "Standard Sizes, One-Stop Stocking",
+        "desc1": "We provide cardboard boxes that meet the specifications of Japan's major courier companies (such as sizes 60, 80, 100, 120, etc.).",
+        "desc2": "Covering various uses including e-commerce shipping, moving packing, document storage, wine and fragile item protection.",
+        "desc3": "Sizes are clearly labeled, making it easy for you to quickly choose according to your actual needs."
+      },
+      "warehouse": {
+        "title": "Own Warehouse and Logistics Center",
+        "desc1": "Our warehouse is located in Osaka, close to the core Kansai area, with high efficiency in restocking and shipping.",
+        "desc2": "Common sizes are kept in stock, supporting same-day or next-day shipping (depending on order time and area).",
+        "desc3": "We support shipping to major Kansai cities such as Osaka, Kyoto, and Kobe."
+      },
+      "quality": {
+        "title": "Low Price Doesn't Mean Low Quality",
+        "desc1": "Leveraging domestic supply chain resources to control costs and truly pass price advantages to customers.",
+        "desc2": "We insist on using corrugated cardboard that meets strength standards, ensuring reliable load capacity and resistance to deformation.",
+        "desc3": "Whether it's long-term shipping for online stores or one-time moving, you can use our boxes with confidence."
+      },
+      "service": {
+        "title": "Chinese Service That Understands Chinese People",
+        "desc1": "We provide full Chinese interface and customer service, allowing communication in Chinese for ordering, inquiries, and after-sales.",
+        "desc2": "We understand the real needs of cross-border e-commerce, personal shopping agents, international students, and Chinese families.",
+        "desc3": "We also support Japanese and English services for your convenience in communicating with Japanese colleagues or partners."
+      }
+    },
+    "customers": {
+      "title": "Our Customers",
+      "list": [
+        "Individuals and companies running online stores in Japan (e-commerce/personal shopping/warehouse shipping)",
+        "Chinese families and international students studying, working, or moving in the Kansai region",
+        "Small businesses needing document storage, office organization, and sample shipping",
+        "Merchants and warehouses needing bulk purchases of standard-size boxes"
+      ],
+      "conclusion": "Whether you're an international student who just arrived in Japan or a business owner who has been rooted in Kansai for many years, 快纸箱 hopes to be that 'small warehouse where you can always buy the right boxes' by your side."
+    },
+    "commitment": {
+      "title": "Brand Commitment",
+      "size": "Standard Sizes: All box sizes are clearly labeled on product pages and can be measured accurately.",
+      "price": "Transparent Pricing: The listed price is the selling price, with no hidden fees.",
+      "delivery": "Fast Shipping: We ship within the agreed time as much as possible, and notify in advance for special circumstances.",
+      "service": "Friendly Service: If we can solve it in Chinese, we won't let you guess in Japanese."
+    }
+  },
+  "legal": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "brand": "快纸箱（kuaizhixiang.com）",
+      "lastUpdated": "Last Updated",
+      "lastUpdatedDate": "November 2024",
+      "backToHome": "Back to Home",
+      "disclaimer": "Note: This privacy policy is a general template and does not constitute formal legal advice. For specific legal questions, please consult a professional lawyer.",
+      "sections": {
+        "intro": {
+          "title": "Introduction",
+          "body": "快纸箱 is a local cardboard box supplier based in Osaka, Kansai region, founded and operated by a team from China. We mainly serve customers in the Kansai region (Osaka, Kyoto, Kobe, etc.).\n\nThis Privacy Policy explains how we collect, use, and protect your personal information when you browse this website or place orders."
+        },
+        "scope": {
+          "title": "Scope of this Policy",
+          "body": "This Privacy Policy applies to:\n• Visitors to kuaizhixiang.com\n• Registered customers\n• Users who place orders on this website\n\nThis policy does NOT cover third-party websites linked from this site (e.g., Stripe checkout pages). These third-party websites have their own privacy policies."
+        },
+        "collect": {
+          "title": "Information We Collect",
+          "body": "We may collect the following types of information:\n\n• Account & contact information: name, email, phone, shipping address\n• Order information: products ordered, quantities, prices, payment status\n• Payment information: processed via Stripe/Alipay; we do not store full card details on our servers\n• Communication information: messages sent via contact form, email, or chat\n• Technical information: IP address, browser type, cookies, logs for security and statistics"
+        },
+        "use": {
+          "title": "How We Use the Information",
+          "body": "We use the collected information to:\n• Process and deliver orders\n• Provide customer support (in Chinese / Japanese / English)\n• Improve our products and website\n• Send notifications about orders, delivery status, or important service changes\n• Send marketing messages or newsletters only when the user has consented (and always with an opt-out option)\n\nWe do not sell your personal data."
+        },
+        "sharing": {
+          "title": "Sharing with Third Parties",
+          "body": "We may share information with third parties such as:\n• Payment providers (Stripe, Alipay, etc.)\n• Logistics/delivery partners\n• Email or messaging service providers (for order emails, contact form)\n\nWe may disclose information where required by law or to protect our rights.\n\nWe only provide third parties with the minimum required data."
+        },
+        "cookies": {
+          "title": "Cookies & Analytics",
+          "body": "This website may use cookies to:\n• Remember language preferences\n• Keep items in the cart\n• Collect simple anonymized usage statistics\n\nUsers can control cookies via browser settings, but some functions may not work properly if cookies are disabled."
+        },
+        "security": {
+          "title": "Data Security",
+          "body": "We use reasonable technical and organizational measures to protect personal data (e.g., HTTPS, access control).\n\nPlease note that no method is 100% secure, but we try to minimize risk."
+        },
+        "retention": {
+          "title": "Data Retention",
+          "body": "• Order and billing data is kept for the period required by Japanese law and for accounting purposes\n• Other data is kept only as long as necessary for the purposes described"
+        },
+        "rights": {
+          "title": "User Rights",
+          "body": "Users can:\n• Request access to their personal data\n• Request correction of inaccurate data\n• Request deletion where legally allowed\n\nPlease contact us using the contact information below to exercise these rights."
+        },
+        "changes": {
+          "title": "Changes to this Policy",
+          "body": "We may update this policy from time to time and will post the latest version on the website with a \"Last updated\" date."
+        },
+        "contact": {
+          "title": "Contact Information",
+          "body": "If you have questions or requests regarding this Privacy Policy, please contact us at:\n\nEmail: support@kuaizhixiang.com\n\nCompany Address: Osaka Prefecture (specific address to be added)"
+        }
+      }
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "brand": "快纸箱（kuaizhixiang.com）",
+      "lastUpdated": "Last Updated",
+      "lastUpdatedDate": "November 2024",
+      "backToHome": "Back to Home",
+      "disclaimer": "Note: This Terms of Service is a general template and does not constitute formal legal advice. For specific legal questions, please consult a professional lawyer.",
+      "sections": {
+        "intro": {
+          "title": "Introduction",
+          "body": "By using kuaizhixiang.com, browsing, or placing orders, you agree to these Terms of Service.\n\nThe service is mainly targeted at customers in the Kansai region."
+        },
+        "service": {
+          "title": "Service Description",
+          "body": "快纸箱 provides the following services:\n• Sells standard-size cardboard boxes\n• Operates a warehouse and logistics center in Osaka\n• Provides online ordering and delivery to major areas in Kansai\n\nProduct descriptions (size, strength, applicable courier size) are provided on product pages."
+        },
+        "account": {
+          "title": "Account, Orders & Accuracy of Information",
+          "body": "Users must provide accurate and complete information for orders (name, address, phone, email).\n\nThe service operator may:\n• Refuse or cancel orders in cases such as suspected fraud, incorrect pricing, or stock issues\n\nIf an order cannot be fulfilled, we will contact the customer for alternatives or a refund."
+        },
+        "prices": {
+          "title": "Prices & Payments",
+          "body": "Currency: JPY (Japanese yen).\n\nPrices may change; the price at the time of order is valid.\n\nSupported payment methods:\n• Credit card via Stripe\n• Apple Pay / Google Pay via Stripe (if enabled)\n• Alipay (if integrated)\n• Other methods such as bank transfer or COD can be added later\n\nThe order is confirmed only after successful payment authorization."
+        },
+        "shipping": {
+          "title": "Shipping & Delivery",
+          "body": "Main delivery area: Kansai (Osaka, Kyoto, Kobe, etc.).\n\n• For in-stock items, usually same-day or next-day shipping; actual arrival time depends on the courier\n• Possible delays due to weather, traffic, peak seasons, or other factors\n\nRisk transfer: Upon handing the goods to the carrier, risk transfers to the customer, subject to Japanese law and courier terms."
+        },
+        "returns": {
+          "title": "Returns, Exchanges & Damages",
+          "body": "If products are damaged during delivery or do not match the order, customers should contact us within 7 days of receipt with photos and order details.\n\nFor returns/exchanges, boxes must be unused and in resalable condition, except in cases of defects or packing errors.\n\nShipping cost responsibility:\n• If it's our mistake (wrong shipment, quality issues), we bear the return shipping cost\n• If the customer changes their mind, the customer bears the return shipping cost"
+        },
+        "prohibited": {
+          "title": "Prohibited Uses",
+          "body": "Prohibited uses of the site include:\n• Illegal activities\n• Attempting to breach site security\n• Using the site to send spam or malicious content\n• Impersonating others or providing false information"
+        },
+        "ip": {
+          "title": "Intellectual Property",
+          "body": "Site content, including texts, images, logos, and layout, belongs to 快纸箱 or its licensors.\n\nCustomers may use the site only for personal or business purchasing of boxes, not for copying or reselling site content."
+        },
+        "disclaimers": {
+          "title": "Disclaimers & Limitation of Liability",
+          "body": "We strive to keep product information accurate, but minor differences in color or appearance may occur.\n\nTo the extent permitted by law, we are not liable for indirect or consequential damages such as lost profits."
+        },
+        "changes": {
+          "title": "Changes to the Terms",
+          "body": "We may update these Terms from time to time.\n\nThe updated Terms will be posted on the site with a \"Last updated\" date.\n\nContinued use of the site after changes means acceptance of the new Terms."
+        },
+        "governing": {
+          "title": "Governing Law & Language",
+          "body": "Governing law: Japan.\n\nThe site provides Chinese, Japanese, and English versions.\n\nIn case of inconsistency, the Chinese version prevails."
+        },
+        "contact": {
+          "title": "Contact",
+          "body": "If you have questions regarding these Terms of Service, please contact us at:\n\nEmail: support@kuaizhixiang.com\n\nCompany Address: Osaka Prefecture (specific address to be added)"
+        }
+      }
+    }
+  },
+  "footer": {
+    "links": {
+      "about": "About",
+      "faq": "FAQ",
+      "support": "Support",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    },
+    "company": "快纸箱 | kuaizhixiang.com",
+    "warehouse": "Warehouse: Osaka Prefecture",
+    "copyright": "All Rights Reserved"
+  }
+}
+
